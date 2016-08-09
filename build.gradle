@@ -1,0 +1,25 @@
+subprojects {
+
+    apply plugin: 'java'
+    apply plugin: 'eclipse-wtp'
+    
+	sourceCompatibility = 1.7
+	targetCompatibility = 1.7
+	
+    repositories {
+    	mavenCentral()
+    	maven { url "http://download.java.net/maven/2" }
+    	maven { url 'http://repo.spring.io/plugins-release' }
+    }
+
+	ext {
+		springVersion = "4.1.4.RELEASE"
+	}   
+
+	dependencies {
+	}
+
+	version = '1.0'
+
+    
+}
