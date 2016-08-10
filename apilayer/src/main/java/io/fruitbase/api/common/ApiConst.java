@@ -4,7 +4,7 @@ public interface ApiConst {
 
 	public static final String REST_CONTROLLER_PACKAGE = "io.fruitbase.api.rest.controller";
 
-	public static final String BUSINESS_BEAN_PACKAGE = "io.fruitbase.business.beans";
+	public static final String BUSINESS_BEAN_PACKAGE = "io.fruitbase.business.services";
 
 	public static final String AUTH_ACCESS_TOKEN = "accessToken";
 
