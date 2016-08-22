@@ -1,4 +1,4 @@
-package io.fruitbase.business.services.dummy.entity;
+/*package io.fruitbase.service.entities;
 
 public abstract class Employee {
 
@@ -31,3 +31,4 @@ public abstract class Employee {
 	}
 
 }
+*/

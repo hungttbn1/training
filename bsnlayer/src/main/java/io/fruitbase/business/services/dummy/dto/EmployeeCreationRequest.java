@@ -1,18 +1,18 @@
 package io.fruitbase.business.services.dummy.dto;
 
+import javax.validation.constraints.Min;
+
+import org.hibernate.validator.constraints.Email;
+import org.hibernate.validator.constraints.NotEmpty;
+
 public class EmployeeCreationRequest {
 
-	private String type;
+	@NotEmpty
 	private String name;
+	@Email
 	private String email;
-
-	public String getType() {
-		return type;
-	}
-
-	public void setType(String type) {
-		this.type = type;
-	}
+	@Min(1)
+	private Integer teamId;
 
 	public String getName() {
 		return name;
@@ -28,6 +28,14 @@ public class EmployeeCreationRequest {
 
 	public void setEmail(String email) {
 		this.email = email;
+	}
+
+	public Integer getTeamId() {
+		return teamId;
+	}
+
+	public void setTeamId(Integer teamId) {
+		this.teamId = teamId;
 	}
 
 }

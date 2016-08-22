@@ -1,4 +1,4 @@
-package io.fruitbase.business.services.dummy.entity;
+/*package io.fruitbase.service.entities;
 
 public class TeamLeader extends Employee {
 
@@ -13,3 +13,4 @@ public class TeamLeader extends Employee {
 	}
 
 }
+*/
