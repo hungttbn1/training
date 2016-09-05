@@ -10,5 +10,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableTransactionManagement
 @ComponentScan(basePackages = { ApiConst.BUSINESS_BEAN_PACKAGE })
 public class ServiceBeanConfig {
+	
+
 
 }
